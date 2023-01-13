@@ -2,6 +2,7 @@ $bg-grey: #222427;
 $white: #fff;
 $black: #000;
 $red: #B52B46;
+$text-black:#1E1E1E;
 
 .container{
     display: block;
@@ -53,3 +54,17 @@ $red: #B52B46;
         color: $red;
     }
 }
+
+.title-block{
+    max-width: 919px;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    margin-bottom: 35px;
+    span{
+        color: $red;
+    }
+}
+
