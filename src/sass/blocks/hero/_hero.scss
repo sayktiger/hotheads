@@ -1,0 +1,110 @@
+.hero{
+    padding: 15px 0 85px 0;
+    background: url('../img/hero/hero-background.jpg') center center /cover no-repeat;
+    &__main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text{
+        max-width: 672px;
+    }
+    &__title{
+        font-style: normal;
+        font-size: 47px;
+        line-height: 130%;
+        text-transform: uppercase;
+        color: $white;
+        margin-bottom: 35px;
+        position: relative;
+        z-index: 0;
+        &::before{
+            content: '';
+            max-width: 552px;
+            width: 100%;
+            height: 30px;
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left:0;
+            background-color: $red;
+            z-index: -1;
+        }
+    }
+    &__subtitle{
+        font-style: normal;
+        font-size: 34px;
+        line-height: 130%;
+        color: $white;
+        span{
+            padding: 5px 15px;
+            color: $white;
+            background-color: $red;
+            
+        }
+    }
+
+    &__form{
+        max-width: 420px;
+        background-color: #292D36;
+        padding: 35px 40px 32px;
+        &-title{
+            font-style: normal;
+            font-size: 25px;
+            line-height: 130%;
+            color: $white;
+            margin-bottom: 19px;
+        }
+    }
+    &__name{
+        max-width: 340px;
+        max-height: 73px;
+        margin-bottom: 10px;
+        input{
+            padding: 25px 0 23px 25px;
+            width: 100%;
+            outline: none;
+            font-style: normal;
+            font-size: 19px;
+            line-height: 130%;
+            color: #1E1E1E;
+           
+        }
+    }
+    &__phone{
+        max-width: 340px;
+        max-height: 73px;
+        margin-bottom: 15px;
+        input{
+            padding: 25px 0 23px 25px;
+            width: 100%;
+            outline: none;
+            font-style: normal;
+            font-size: 19px;
+            line-height: 130%;
+            color: #1E1E1E;
+        }
+    }
+
+    &__button{
+        max-width: 340px;
+        max-height: 75px;
+        margin-bottom: 20px;
+    }
+
+    &__politic{
+        font-style: normal;
+        font-size: 14px;
+        line-height: 130%;
+        color: $white;
+        opacity: 0.5;
+        a{
+            color:$white;
+            transition: all 0.3s;
+            opacity: 1;
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+}

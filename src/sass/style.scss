@@ -10,6 +10,7 @@
 }
 body{
     position: relative;
+    font-family: 'Averta CY', sans-serif;
 }
 h1,h2,h3,p,ul,li{
     margin: 0;
@@ -20,7 +21,16 @@ img {
     width: 100%;
 }
 
-h1{
-    font-family: 'Averta CY', sans-serif;
-    font-weight: 700;
+li{
+    list-style: none
 }
+
+a{
+    text-decoration: none;
+}
+
+//Блоки
+@import 'blocks/header/_header';
+@import 'blocks/hero/_hero';
+
+

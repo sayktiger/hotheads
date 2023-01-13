@@ -2,3 +2,54 @@ $bg-grey: #222427;
 $white: #fff;
 $black: #000;
 $red: #B52B46;
+
+.container{
+    display: block;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.anim-opacity{
+    transition: all 0.3s;
+    &:hover{
+        opacity: 0.6;
+    }
+}
+
+.acy-400{
+    font-family: 'Averta CY', sans-serif;
+    font-weight: 400;
+}
+.acy-600{
+    font-family: 'Averta CY', sans-serif;
+    font-weight: 600;
+}
+.acy-700{
+    font-family: 'Averta CY', sans-serif;
+    font-weight: 700;
+}
+.inter{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.btn-red{
+    background-color: $red;
+    padding: 25px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover{
+        background-color: $white;
+        color: $red;
+    }
+}
