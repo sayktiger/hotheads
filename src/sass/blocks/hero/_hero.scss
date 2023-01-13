@@ -48,6 +48,7 @@
         max-width: 420px;
         background-color: #292D36;
         padding: 35px 40px 32px;
+        position: relative;
         &-title{
             font-style: normal;
             font-size: 25px;
@@ -106,5 +107,42 @@
                 opacity: 0.5;
             }
         }
+    }
+
+    &__space{
+        width: 48px;
+        height: 48px;
+        border-radius: 100%;
+        background-color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -19px;
+        right: 11px;
+        svg{
+            width: 26px;
+            height: 25px;
+            fill: $red;
+        }
+    }
+
+    &__donar{
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        position: absolute;
+        bottom:-21px;
+        right: 16px;
+        border: 10px solid #B52B46;
+    }
+    &__circle{
+        width: 19px;
+        height: 20px;
+        background: #B52B46;
+        border-radius: 100%;
+        position: absolute;
+        top: 94px;
+        left: -13px;
     }
 }
