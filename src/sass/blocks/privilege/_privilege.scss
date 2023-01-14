@@ -56,6 +56,8 @@
             text-transform: uppercase;
             color: $white;
             margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
         }
         &-descr{
             font-family: 'Inter';
@@ -94,6 +96,19 @@
             background-color: $red;
             margin-left: 8px;
             margin-right: 8px;
+        }
+    }
+    &__arrow{
+        position: absolute;
+        top:9px;
+        left:0;
+        width: 280px;
+        height: 15px;
+        svg{
+            fill: rgba(255, 255, 255, 0.24);
+            width: 280px;
+            height: 15px;
+            z-index: -1;
         }
     }
 }
