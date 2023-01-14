@@ -1,5 +1,32 @@
 "use strict"
 document.addEventListener(`DOMContentLoaded`, () => {
+    // Мобильное меню
+    (function(){
+        const body = document.querySelector(`body`),
+          menu = document.querySelector(`.mobile-menu`),
+          burger = document.querySelector(`.nav__burger`),
+          mobileMenuLink = document.querySelectorAll(`.mobile-menu__item a`);
+        
+      
+      burger.addEventListener(`click`, (e) =>{
+
+
+        body.classList.toggle(`overflow`);
+        menu.classList.toggle(`mobile-menu__active`);
+        burger.classList.toggle(`nav__burger__active`);
+      });
+
+      mobileMenuLink.forEach((item) =>{
+        item.addEventListener(`click`, (e) =>{
+
+          body.classList.remove(`overflow`);
+          menu.classList.remove(`mobile-menu__active`);
+          burger.classList.remove(`nav__burger__active`);
+        });
+      });
+
+      
+    }());
 
     //Табы
     const tabs = (headerSelector, tabSelector, contentSelector, activeClass, display = "block") =>{
