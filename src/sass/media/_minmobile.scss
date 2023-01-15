@@ -1,0 +1,130 @@
+@media (max-width: 480px) {
+    .hero__title{
+        font-size: 22px;
+    }
+    .hero__subtitle {
+        font-size: 15px;
+    }
+    .hero__form{
+        padding: 15px;
+    }
+    .hero__form-title{
+        font-size: 20px;
+    }
+
+    .btn-red{
+        font-size: 15px;
+    }
+    .hero__politic {
+        font-size: 12px;
+    }
+    .advantage__title{
+        font-size: 20px;
+    }
+    .advantage__tab{
+        font-size: 10px;
+        padding: 12px 12px;
+    }
+    .advantage__full-title{
+        font-size: 18px;
+    }
+    .advantage__full-hot{
+        display: none;
+    }
+    .advantage__full__list li{
+        font-size: 12px;
+    }
+    .advantage__full__descr{
+        font-size: 12px;
+        max-width: 100%;
+    }
+    .advantage__full__price__title{
+        font-size: 18px;
+    }
+    .advantage__full__price__left{
+        font-size: 12px;
+    }
+
+    .advantage__full__price__rigth{
+        font-size: 12px;
+    }
+    .advantage__full__price .advantage-red{
+        font-size: 14px;
+    }
+    .advantage__full__price__econ{
+        font-size: 12px;
+    }
+    .advantage__classic-title{
+        font-size: 18px;
+    }
+    .advantage__classic__descr{
+        font-size: 12px;
+    }
+    .advantage__classic__price__title{
+        font-size: 16px;
+    }
+    .advantage__classic__price__left{
+        font-size: 12px;
+    }
+    .advantage__classic__price__rigth{
+        font-size: 12px;
+    }
+    .advantage__classic__price__rigth .advantage-red{
+        font-size: 14px;
+    }
+    .privilege__block{
+        padding: 15px;
+    }
+    .privilege__title{
+        font-size: 18px;
+    }
+    .privilege__subtitle{
+        font-size: 12px;
+    }
+    .privilege__left{
+        font-size: 12px;
+    }
+    .privilege__rigth{
+        font-size: 10px;
+    }
+    .claim__title{
+        font-size: 20px;
+    }
+    .question__title{
+        font-size: 18px;
+    }
+    .seo__title{
+        font-size: 18px;
+    }
+    .footer__anti{
+        display: none;
+    }
+    .footer__block{
+        flex-direction: column;
+    }
+    .footer__reg{
+        margin-bottom: 25px;
+    }
+    .mr{
+        margin-bottom: 25px;
+    }
+    .footer__social{
+        flex-direction: column;
+    }
+    .footer__social__left{
+        margin-bottom: 15px;
+    }
+    .footer__author{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer__buttons_red {
+        font-size: 12px;
+    }
+    .footer__buttons_white{
+        font-size: 12px;
+    }
+    .advantage__tabs-header{
+        max-width: 250px;
+    }
+}

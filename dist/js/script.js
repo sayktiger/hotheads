@@ -65,7 +65,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
             }
         });
     };
-    if (document.documentElement.clientWidth < 768) {
+    if (document.documentElement.clientWidth < 1025) {
         tabs(`.advantage__tabs-header`, `.advantage__tab`,`.advantage__tab-content`,`advantage__tab_active`)
      }
     
