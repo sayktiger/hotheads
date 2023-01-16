@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 460px) {
     .hero__title{
         font-size: 22px;
     }
@@ -126,5 +126,20 @@
     }
     .advantage__tabs-header{
         max-width: 250px;
+    }
+    .claim__block{
+        padding: 15px;
+    }
+    .advantage__classic__price .advantage-red{
+        font-size: 14px;
+    }
+    .footer__buttons{
+        flex-wrap: wrap;
+    }
+    .footer__buttons_red{
+        margin-bottom: 10px;
+    }
+    .hero__title{
+        max-width: 311px;
     }
 }

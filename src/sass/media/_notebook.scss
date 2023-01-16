@@ -1,12 +1,50 @@
 @media (max-width: 1300px) {
     .container{
         max-width: 1140px;
+        padding: 0 10px;
+    }
+    .advantage__full-title{
+        font-size: 26px;
+    }
+    .advantage__classic-title{
+        font-size: 26px;
+    }
+    .advantage__full-hot{
+        font-size: 18px;
+    }
+    .advantage__classic{
+        max-width: 49%;
+    }
+    .advantage__full {
+        max-width: 49%;
+    }
+    .advantage__classic__price__title{
+        font-size: 26px;
+    }
+
+    .advantage__full__price__title{
+        font-size: 26px;
+    }
+
+    .privilege__left{
+        font-size: 16px;
+    }
+
+    .privilege__rigth{
+        font-size: 20px;
+    }
+    .privilege__arrow svg{
+        width: 250px;
+    }
+    .privilege__item{
+        max-width: 230px;
     }
 }
 
 @media (max-width:1140px) {
     .container{
         max-width: 960px;
+        margin: 0 auto;
     }
     .nav__link-menu{
         font-size: 14px;
@@ -15,26 +53,18 @@
         justify-content: space-around;
     }
     .hero__title {
-        font-size: 45px;
+        font-size: 40px;
+    }
+    .hero__subtitle{
+        font-size: 30px;
     }
     .advantage{
         padding: 40px 0 40px 0;
         &__title{
             font-size: 28px;
-            margin-bottom: 20px;
+            margin: 0;
         }
-        .faded{
-            animation-name: faded;
-            animation-duration: 1.5s;
-        }
-        @keyframes faded {
-            from{
-                opacity: 0.1;
-            }
-            to{
-                opacity: 1;
-            }
-        }
+        
         &__tabs-header{
             display: flex;
             justify-content: space-between;
@@ -207,5 +237,27 @@
     .privilege__rigth{
         font-size: 20px;
     }
-
+    .advantage__tabs-header{
+        margin: 0px auto 15px auto;
+    }
+    .advantage__full{
+        margin: 0 auto;
+    }
+    .advantage__title{
+        max-width: 640px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .advantage__tabs-header{
+        display: none;
+    }
+    .advantage__classic-title{
+        min-height: 57.5px;
+    }
+    .advantage__classic__price{
+        padding: 20px 20px 45px 20px;
+    }
+    .privilege__item-descr{
+        font-size: 12px;
+    }
 }

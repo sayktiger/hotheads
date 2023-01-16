@@ -673,7 +673,7 @@
                     display: flex;
                 }
                 input{
-                    width: 165px;
+                    width: 145px;
                     padding: 14px 0 14px 14px;
                     font-family: 'Averta CY';
                     font-style: normal;
@@ -849,4 +849,30 @@
             }
         }
     }
+    .claim__block{
+        align-items: flex-start;
+    }
+    .advantage__wrapper{
+        width: 100%;
+    }
+    .advantage__full{
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .advantage__full__block{
+        width: 100%;
+    }
+    .advantage__classic {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+    .footer__menu__list{
+        min-width: 151px;
+    }
+    .footer__social__left{
+        min-width: 233px;
+    }
+    
 }

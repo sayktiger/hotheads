@@ -1000,4 +1000,63 @@
             max-width: 100%;
         }
     }
+
+    .advantage__tabs-header{
+        margin: 0px 0 15px 0;
+    }
+
+    .advantage__wrapper{
+        width: 100%;
+    }
+    .advantage__full{
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .advantage__full__block{
+        width: 100%;
+    }
+    .advantage__classic {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+    .claim__block{
+        max-width: 470px;
+    }
+    .hero__title {
+        max-width: 470px;
+    }
+    .claim__block{
+        margin: 0 auto;
+    }
+    .claim__title{
+        max-width: 100%;
+    }
+    .hero__name{
+        max-width: 100%;
+    }
+    .hero__phone{
+        max-width: 100%;
+    }
+    .hero__button{
+        max-width: 100%;
+        width: 100%;
+    }
+    .footer__block{
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .footer__reg{
+        margin-right: 0;
+    }
+    .footer__block .mr{
+        margin-right: 0;
+    }
+    .footer__menu__list{
+        min-width: 210px;
+    }
+    .hero__title{
+        max-width: 420px;
+    }
 }

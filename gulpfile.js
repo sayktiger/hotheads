@@ -7,9 +7,9 @@ const cleanCSS    = require('gulp-clean-css');
 const imagemin    = require('gulp-imagemin');
 const htmlmin     = require('gulp-htmlmin');
 const svgSprite   = require('gulp-svg-sprite');
-// const imageminWebp = require('imagemin-webp');
-// const imageminw = require('imagemin');
-// const webp = require('gulp-webp');
+const imageminWebp = require('imagemin-webp');
+const imageminw = require('imagemin');
+const webp = require('gulp-webp');
 const svgspriteConfig = {
     shape: {
         dimension: {
@@ -112,16 +112,16 @@ gulp.task(`svgSprite`, function(){
         .pipe(gulp.dest("dist/img"));
 });
 
-// gulp.task(`webp-min`, ()=>{
-//         imageminw(['src/img/**/*.{jpg,png}'], 'dist/', {
-//         use: [
-//             imageminWebp({quality: 80})
-//         ]
-//     });
-//     return gulp.src('src/**/*.png')
-//         .pipe(webp())
-//         .pipe(gulp.dest('dist/img'))
-// });
+gulp.task(`webp-min`, ()=>{
+        imageminw(['src/img/**/*.{jpg,png}'], 'dist/', {
+        use: [
+            imageminWebp({quality: 80})
+        ]
+    });
+    return gulp.src('src/**/*.png')
+        .pipe(webp())
+        .pipe(gulp.dest('dist/img/webp'))
+});
 
 
-gulp.task('default', gulp.parallel('watch','server','styles',`scripts`,`fonts`,`html`,`images`,`svgSprite`));
+gulp.task('default', gulp.parallel('watch','server','styles',`scripts`,`fonts`,`html`,`images`,`svgSprite`, `webp-min`));
